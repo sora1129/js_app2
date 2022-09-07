@@ -11,11 +11,9 @@
     for (let i = 0; i < 5; i++) {
       column[i] = source.splice(Math.floor(Math.random() * source.length), 1)[0];
     }
-
     return column;
   }
 
-  // ランダムの数値を各列に並べる
   function createColumns() {
     const columns = [];
     for (let i = 0; i < 5; i++) {
